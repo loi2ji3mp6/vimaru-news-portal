@@ -1,0 +1,21 @@
+# Thư viện cài đặt
+node_modules/
+
+# Kết quả build
+dist/
+build/
+
+# Biến môi trường và bí mật
+.env
+.env.*
+!.env.example
+
+# Log
+*.log
+npm-debug.log*
+
+# Hệ điều hành / trình soạn thảo
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
